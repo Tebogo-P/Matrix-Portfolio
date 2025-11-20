@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebogo Pii - Software Developer</title>
+    <meta name="description" content="ICT Application Development student seeking internship opportunities. Specializing in Java, SQL, and full-stack development. Based in South Africa.">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="matrix-canvas"></canvas>
+    
+    <div class="content-wrapper">
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">&gt; TEBOGO.DEV_</div>
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#certificates">CERTIFICATES</a></li>
+                    <li><a href="#quotes">INSPIRATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><button class="theme-toggle" onclick="toggleTheme()">◐ THEME</button></li>
+                </ul>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="terminal-prompt">root@tebogo:~$ ./initialize_portfolio.sh</div>
+                <h1 class="hero-name">TEBOGO_PII</h1>
+                <p class="hero-title">ICT APPLICATION DEVELOPER</p>
+                <p class="hero-subtitle">2ND YEAR STUDENT | SEEKING INTERNSHIP OPPORTUNITIES</p>
+                <div class="hero-info">
+                    <p>📧 piitebogo12@gmail.com | 📱 067 120 7297</p>
+                    <p>📍 Cape Town (Study) | Johannesburg/Krugersdorp (Home)</p>
+                    <p>🎓 CPUT Student #230226442</p>
+                </div>
+                <div class="btn-group">
+                    <a href="#projects" class="btn">VIEW PROJECTS &gt;&gt;</a>
+                    <a href="Tebogo_Pii_CV.pdf" download class="btn">⬇ DOWNLOAD CV</a>
+                    <a href="#contact" class="btn">CONNECT</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="section-header">
+                <div class="section-tag">SYSTEM_INFO</div>
+                <h2 class="section-title">ABOUT ME</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>&gt; CAREER OBJECTIVES</h3>
+                    <p>
+                        As a passionate and dedicated Information and Communication Technology (ICT) student, I am seeking an IT-related internship opportunity to apply my academic knowledge, strengthen my technical skills, and contribute to innovative solutions.
+                    </p>
+                    <p>
+                        I am currently pursuing a Diploma in ICT: Application Development at the Cape Peninsula University of Technology (CPUT) in Cape Town, building on a completed Higher Certificate in ICT. My goal is to gain hands-on experience in application development, databases, cybersecurity, and IT systems to grow as a professional in the technology field.
+                    </p>
+                    
+                    <h3>&gt; EDUCATION</h3>
+                    <div class="education-item">
+                        <h4>Cape Peninsula University of Technology (CPUT)</h4>
+                        <p class="highlight">• Diploma in ICT: Application Development — 2nd Year Student</p>
+                        <p class="highlight">• Higher Certificate in ICT — Completed</p>
+                        <p class="highlight">• Location: Cape Town, Western Cape</p>
+                    </div>
+                    
+                    <h3>&gt; LOCATION</h3>
+                    <div class="education-item">
+                        <p class="highlight">• Study Base: Cape Town, Western Cape (CPUT Campus)</p>
+                        <p class="highlight">• Home Base: Kagiso 2, Krugersdorp, Gauteng</p>
+                        <p class="highlight">• Available for: Cape Town & Gauteng opportunities</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-icon">🎓</div>
+                        <h4>2ND YEAR</h4>
+                        <p>DIPLOMA STUDENT</p>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">✅</div>
+                        <h4>COMPLETED</h4>
+                        <p>HIGHER CERTIFICATE</p>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">🚀</div>
+                        <h4>6 PROJECTS</h4>
+                        <p>ACADEMIC & PERSONAL</p>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">🏆</div>
+                        <h4>18+ CERTS</h4>
+                        <p>COMPLETED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="section-header">
+                <div class="section-tag">TECHNICAL_STACK</div>
+                <h2 class="section-title">SKILLS & TOOLS</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>&gt; PROGRAMMING & DEVELOPMENT</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Java Application Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>SQL & Database Management</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>HTML5, CSS3, JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Java Swing (GUI Development)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>JDBC & Apache Derby</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Client-Server Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>&gt; TOOLS & SOFTWARE</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Visual Studio Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Apache NetBeans / IntelliJ IDEA</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Eclipse IDE</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>MySQL Workbench</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Figma (Design Tools)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Bootstrap Studio</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>GitHub & Version Control</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Trello (Project Management)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Microsoft 365 & Teams</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>&gt; SOFT SKILLS</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Problem Solving & Analytical Thinking</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Team Collaboration & Communication</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Project Management & Agile Practices</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Time Management & Adaptability</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Attention to Detail</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet">•</span>
+                            <span>Continuous Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="section-header">
+                <div class="section-tag">PRACTICAL_EXPERIENCE</div>
+                <h2 class="section-title">PROJECTS</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">JAVA</span>
+                            <span class="project-tag">SWING</span>
+                            <span class="project-tag">DERBY</span>
+                            <span class="project-tag">SQL</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Residences App</h3>
+                        <p>&gt; Designed and built a Java desktop application to manage student residence information with integrated Apache Derby database using JDBC for data persistence. Implemented SQL queries for CRUD operations.</p>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> Java, Java Swing, JDBC, SQL, Apache Derby
+                        </div>
+                        <a href="https://github.com/Tebogo-P/StudentResidenceApp.git" target="_blank" class="btn btn-small">VIEW CODE</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">JAVA</span>
+                            <span class="project-tag">CLIENT-SERVER</span>
+                            <span class="project-tag">GROUP</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Enrolment System</h3>
+                        <p>&gt; Developed a client-server desktop application in Java with my group to manage student enrolment processes. Built GUI using Java Swing and implemented both client-side and server-side logic.</p>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> Java, Java Swing, Apache NetBeans / IntelliJ IDE
+                        </div>
+                        <a href="https://github.com/Matthew-codez/Student-Staff-Enrollment-System.git" target="_blank" class="btn btn-small">VIEW CODE</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JAVASCRIPT</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Portfolio</h3>
+                        <p>&gt; Developed a responsive personal portfolio website to showcase academic projects and technical skills. Implemented sections for About, Projects, and Contact with responsive design principles and mobile compatibility.</p>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, Visual Studio Code
+                        </div>
+                        <a href="https://github.com/Tebogo-P/My-Portfolio-Website.git" target="_blank" class="btn btn-small">VIEW CODE</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">GROUP</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>NGO Website</h3>
+                        <p>&gt; Collaborated with my group to design and develop a responsive website for an NGO promoting community involvement. Built structured layout with Home, About, Projects, and Volunteer Sign-Up pages.</p>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> HTML5, CSS3, Visual Studio Code
+                        </div>
+                        <a href="https://github.com/Tebogo-P/NGO-Website.git" target="_blank" class="btn btn-small">VIEW CODE</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">MATRIX</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Matrix Portfolio (This Site)</h3>
+                        <p>&gt; Modern Matrix-themed portfolio with animated rain effect, smooth animations, dark/light theme toggle, and fully responsive design. Features enhanced readability and professional presentation.</p>
+                        <div class="project-tech">
+                            <strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, Canvas API
+                        </div>
+                        <a href="#home" class="btn btn-small">VIEW LIVE</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-tags">
+                            <span class="project-tag">GOOGLE_SITES</span>
+                            <span class="project-tag">2023</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Academic Portfolio (2023)</h3>
+                        <p>&gt; First portfolio website built with Google Sites showcasing academic projects, coursework, and early development work. Documents my learning journey and progression as a developer at CPUT.</p>
+                        <div class="project-tech">
+                            <strong>Platform:</strong> Google Sites
+                        </div>
+                        <a href="https://sites.google.com/view/pii-tebogo-chimane-2023/home" target="_blank" class="btn btn-small">VIEW SITE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <div class="section-header">
+                <div class="section-tag">ACHIEVEMENTS_UNLOCKED</div>
+                <h2 class="section-title">CERTIFICATIONS</h2>
+            </div>
+            <p style="text-align: center; color: var(--text-dim); margin-bottom: 3rem;">Click on any certificate to view the full credential</p>
+            <div class="certificates-grid">
+                <!-- LinkedIn Learning Certificates -->
+                <a href="My Certificates/CertificateOfCompletion_Big Data in the Age of AI.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🤖</div>
+                    <h4>BIG DATA IN AI</h4>
+                    <p>Big Data Analytics, AI, Data Literacy</p>
+                    <p class="cert-date">Mar 10, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Cybersecurity Foundations Application Security.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🔐</div>
+                    <h4>CYBERSECURITY</h4>
+                    <p>Cybersecurity Foundations: Application Security</p>
+                    <p class="cert-date">Apr 13, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Database Foundations Database Management.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🗄️</div>
+                    <h4>DATABASE MGMT</h4>
+                    <p>Database Foundations & Administration</p>
+                    <p class="cert-date">Mar 09, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_DataDriven DecisionMaking for Business Professionals.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">📊</div>
+                    <h4>DATA ANALYTICS</h4>
+                    <p>Data-Driven Decision Making</p>
+                    <p class="cert-date">Mar 08, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Ecommerce Fundamentals.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🛒</div>
+                    <h4>E-COMMERCE</h4>
+                    <p>E-commerce Fundamentals</p>
+                    <p class="cert-date">Apr 23, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Ecommerce Success Stories.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">💼</div>
+                    <h4>E-COMMERCE</h4>
+                    <p>E-commerce Success Stories</p>
+                    <p class="cert-date">Apr 23, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Identifying Your Target Market.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🎯</div>
+                    <h4>MARKETING</h4>
+                    <p>Identifying Your Target Market</p>
+                    <p class="cert-date">Oct 25, 2024</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Information Literacy.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">📚</div>
+                    <h4>INFO LITERACY</h4>
+                    <p>Information Literacy</p>
+                    <p class="cert-date">Mar 07, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Introduction to IT Architecture.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🏗️</div>
+                    <h4>IT ARCHITECTURE</h4>
+                    <p>Introduction to IT Architecture</p>
+                    <p class="cert-date">Feb 27, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_IT Security Foundations Core Concepts.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🛡️</div>
+                    <h4>IT SECURITY</h4>
+                    <p>IT Security Foundations: Core Concepts</p>
+                    <p class="cert-date">Apr 13, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Learning GitHub.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🐙</div>
+                    <h4>GITHUB</h4>
+                    <p>Learning GitHub</p>
+                    <p class="cert-date">Mar 28, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Privacy Governance and Compliance Data Sharing.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🔒</div>
+                    <h4>DATA PRIVACY</h4>
+                    <p>Privacy, Governance & Compliance</p>
+                    <p class="cert-date">Apr 09, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Project Management Skills for Leaders.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">📋</div>
+                    <h4>PROJECT MGMT</h4>
+                    <p>Project Management Skills for Leaders</p>
+                    <p class="cert-date">Mar 27, 2025</p>
+                </a>
+                
+                <a href="My Certificates/CertificateOfCompletion_Understanding and Prioritizing Data Privacy.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🔐</div>
+                    <h4>DATA PRIVACY</h4>
+                    <p>Understanding & Prioritizing Data Privacy</p>
+                    <p class="cert-date">Apr 03, 2025</p>
+                </a>
+                
+                <!-- Google IT Support Professional Certificate -->
+                <a href="My Certificates/Coursera ATWN4DKBCZZD.pdf" target="_blank" class="certificate-badge featured-cert">
+                    <div class="cert-icon">💻</div>
+                    <h4>GOOGLE IT SUPPORT</h4>
+                    <p>Professional Certificate (5 Courses)</p>
+                    <p class="cert-date">Nov 22, 2023</p>
+                    <span class="cert-badge-pro">PROFESSIONAL</span>
+                </a>
+                
+                <!-- Individual Google Courses -->
+                <a href="My Certificates/Coursera UNWRJY2GCDNU.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🌐</div>
+                    <h4>NETWORKING</h4>
+                    <p>The Bits and Bytes of Computer Networking</p>
+                    <p class="cert-date">Aug 14, 2023</p>
+                </a>
+                
+                <a href="My Certificates/Coursera WJ6EFJ6G8CRK.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">💿</div>
+                    <h4>OPERATING SYSTEMS</h4>
+                    <p>Operating Systems: Becoming a Power User</p>
+                    <p class="cert-date">Nov 22, 2023</p>
+                </a>
+                
+                <a href="My Certificates/Coursera ZAE59SRBLY5M.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">⚙️</div>
+                    <h4>SYSTEM ADMIN</h4>
+                    <p>System Administration & IT Infrastructure</p>
+                    <p class="cert-date">Aug 22, 2023</p>
+                </a>
+                
+                <a href="My Certificates/Coursera KTXSYU29HBX3.pdf" target="_blank" class="certificate-badge">
+                    <div class="cert-icon">🛡️</div>
+                    <h4>IT SECURITY</h4>
+                    <p>IT Security: Defense Against Digital Dark Arts</p>
+                    <p class="cert-date">Oct 17, 2023</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Inspirational Quotes Section -->
+        <section id="quotes">
+            <div class="section-header">
+                <div class="section-tag">INSPIRATION</div>
+                <h2 class="section-title">WISDOM FROM THE GREATS</h2>
+            </div>
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "The best way to predict the future is to invent it."
+                    </p>
+                    <div class="quote-author">
+                        <div class="author-avatar">AK</div>
+                        <div class="author-info">
+                            <h4>Alan Kay</h4>
+                            <p>COMPUTER SCIENTIST | SMALLTALK PIONEER</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+                    </p>
+                    <div class="quote-author">
+                        <div class="author-avatar">MF</div>
+                        <div class="author-info">
+                            <h4>Martin Fowler</h4>
+                            <p>SOFTWARE ENGINEER | AUTHOR</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances, to choose one's own way."
+                    </p>
+                    <div class="quote-author">
+                        <div class="author-avatar">VF</div>
+                        <div class="author-info">
+                            <h4>Viktor E. Frankl</h4>
+                            <p>MAN'S SEARCH FOR MEANING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-header">
+                <div class="section-tag">ESTABLISH_CONNECTION</div>
+                <h2 class="section-title">CONTACT</h2>
+            </div>
+            <div class="contact-buttons">
+                <a href="mailto:piitebogo12@gmail.com" class="contact-btn">
+                    <div class="contact-btn-icon">📧</div>
+                    <div class="contact-btn-text">
+                        <h4>EMAIL ME</h4>
+                        <p>piitebogo12@gmail.com</p>
+                    </div>
+                </a>
+                
+                <a href="mailto:230226442@mycput.ac.za" class="contact-btn">
+                    <div class="contact-btn-icon">🎓</div>
+                    <div class="contact-btn-text">
+                        <h4>UNIVERSITY EMAIL</h4>
+                        <p>230226442@mycput.ac.za</p>
+                    </div>
+                </a>
+                
+                <a href="tel:+27671207297" class="contact-btn">
+                    <div class="contact-btn-icon">📱</div>
+                    <div class="contact-btn-text">
+                        <h4>CALL ME</h4>
+                        <p>067 120 7297</p>
+                    </div>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/tebogo-pii-41161726b" target="_blank" class="contact-btn">
+                    <div class="contact-btn-icon">💼</div>
+                    <div class="contact-btn-text">
+                        <h4>LINKEDIN</h4>
+                        <p>Connect with me</p>
+                    </div>
+                </a>
+                
+                <a href="https://github.com/Tebogo-P" target="_blank" class="contact-btn">
+                    <div class="contact-btn-icon">🐙</div>
+                    <div class="contact-btn-text">
+                        <h4>GITHUB</h4>
+                        <p>View my repositories</p>
+                    </div>
+                </a>
+                
+                <div class="contact-btn location-info">
+                    <div class="contact-btn-icon">📍</div>
+                    <div class="contact-btn-text">
+                        <h4>LOCATION</h4>
+                        <p>Cape Town (Study) | Johannesburg/Krugersdorp (Home)</p>
+                        <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">Available for opportunities in both cities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-name">&gt; TEBOGO_PII.DEV_</div>
+                <div class="footer-contact">
+                    <p>📧 piitebogo12@gmail.com | 📱 067 120 7297</p>
+                    <p>🎓 CPUT Diploma Student | 💼 Seeking Internship Opportunities</p>
+                    <p>📍 Cape Town & Johannesburg/Krugersdorp | 🇿🇦 South Africa</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#certificates">CERTIFICATES</a>
+                    <a href="#quotes">INSPIRATION</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <p class="footer-copyright">© 2024 TEBOGO_PII | ALL RIGHTS RESERVED</p>
+                <p class="footer-tagline">BUILT_WITH_&lt;CODE/&gt;_AND_☕_IN_SOUTH_AFRICA</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
