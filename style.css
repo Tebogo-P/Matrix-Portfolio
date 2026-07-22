@@ -421,6 +421,96 @@ section {
     font-weight: 400;
 }
 
+/* Work Experience Section */
+.experience-container {
+    display: grid;
+    gap: 2.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.experience-card {
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid var(--text-muted);
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.experience-card:hover {
+    border-color: var(--matrix-green);
+    box-shadow: var(--glow-subtle);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--text-muted);
+}
+
+.experience-header h3 {
+    color: var(--matrix-green);
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+    letter-spacing: 1px;
+    text-shadow: var(--glow-text);
+}
+
+.experience-header h4.company-name {
+    color: var(--text-bright);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.experience-date {
+    background: rgba(0, 255, 65, 0.1);
+    border: 1px solid var(--matrix-green);
+    color: var(--matrix-green);
+    padding: 0.35rem 0.85rem;
+    font-size: 0.85rem;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 600;
+}
+
+.experience-list {
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+.experience-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    color: var(--text-bright);
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 0.85rem;
+}
+
+.experience-list li div {
+    flex: 1;
+}
+
+.experience-tech {
+    background: rgba(0, 255, 65, 0.03);
+    padding: 1rem 1.25rem;
+    border-left: 3px solid var(--matrix-green);
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+.experience-tech strong {
+    color: var(--text-bright);
+}
+
 /* Skills Section */
 .skills-container {
     display: grid;
@@ -478,6 +568,112 @@ section {
     color: var(--matrix-green);
     font-size: 1.2rem;
     flex-shrink: 0;
+}
+
+/* Figma UI/UX Showcase Section */
+.figma-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+}
+
+.figma-card {
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid var(--text-muted);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.figma-card:hover {
+    border-color: var(--matrix-green);
+    box-shadow: var(--glow-medium);
+    transform: translateY(-5px);
+}
+
+.figma-image-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #0d0d0d;
+    overflow: hidden;
+    border-bottom: 1px solid var(--text-muted);
+    text-decoration: none;
+}
+
+.figma-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    background: #111;
+    transition: transform 0.5s ease;
+}
+
+.figma-card:hover .figma-img {
+    transform: scale(1.04);
+}
+
+.figma-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 255, 65, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.figma-card:hover .figma-overlay {
+    opacity: 1;
+}
+
+.figma-overlay span {
+    color: var(--black);
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 0.6rem 1.25rem;
+    border: 2px solid var(--black);
+    background: #00ff41;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.figma-content {
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.figma-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.figma-content h3 {
+    color: var(--matrix-green);
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.figma-content p {
+    color: var(--text-bright);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    flex: 1;
 }
 
 /* Projects Grid */

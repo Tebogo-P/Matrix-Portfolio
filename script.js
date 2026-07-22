@@ -170,7 +170,7 @@ const observer = new IntersectionObserver(function(entries) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const animateElements = document.querySelectorAll(
-        '.project-card, .quote-card, .certificate-badge, .stat-box, .skill-category, .contact-btn'
+        '.project-card, .quote-card, .certificate-badge, .stat-box, .skill-category, .contact-btn, .experience-card'
     );
     
     animateElements.forEach(element => {
